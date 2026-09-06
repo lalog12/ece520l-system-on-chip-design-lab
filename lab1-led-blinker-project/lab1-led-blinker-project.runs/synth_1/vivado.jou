@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Sep  4 22:44:03 2026
+# Process ID: 21400
+# Current directory: C:/Users/eduar/Documents/GitHub/school/ece520l-system-on-chip-design-lab/lab1-led-blinker-project/lab1-led-blinker-project.runs/synth_1
+# Command line: vivado.exe -log blinking_led.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blinking_led.tcl
+# Log file: C:/Users/eduar/Documents/GitHub/school/ece520l-system-on-chip-design-lab/lab1-led-blinker-project/lab1-led-blinker-project.runs/synth_1/blinking_led.vds
+# Journal file: C:/Users/eduar/Documents/GitHub/school/ece520l-system-on-chip-design-lab/lab1-led-blinker-project/lab1-led-blinker-project.runs/synth_1\vivado.jou
+# Running On: TABLET-9UARK71U, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 4, Host memory: 16983 MB
+#-----------------------------------------------------------
+source blinking_led.tcl -notrace
