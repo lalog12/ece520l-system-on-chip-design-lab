@@ -64,15 +64,12 @@ begin
     
     test_process : process
         begin
-            rst <= '1';
-            led_en <= '0';
-            
-            
-            wait for CLK_PERIOD * 4;
-            
             rst <= '0';
+            led_en <= '1';            
+            wait for CLK_PERIOD * 15;
             
-            wait for CLK_PERIOD * 4;
+            led_en <= '0';
+            wait for CLK_PERIOD * 15;
             
             led_en <= '1';
             

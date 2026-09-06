@@ -40,7 +40,7 @@ end blinking_led;
 architecture Sequential of blinking_led is
 signal clk_cnt : INTEGER := 0;
 signal led_internal : STD_LOGIC := '0';
-constant CLK_CYCLES_PER_TOGGLE : INTEGER := 10; 
+constant CLK_CYCLES_PER_TOGGLE : INTEGER := 62500000; 
 begin
     process(sys_clk)    -- Runs block of code when sys_clk changes.
     begin
