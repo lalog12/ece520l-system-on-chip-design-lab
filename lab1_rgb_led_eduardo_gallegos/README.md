@@ -49,7 +49,7 @@ The LED's RGB channels can't be set to logic high when reset is set to logic hig
 
 <h4><strong>Test Case 5 - red LED channel</strong></h4>
 
-![Alt text](images\test-5-blinking-led-red-channel-case.png "Waveform Simulation")
+![Alt text](images/test-5-blinking-led-red-channel-case.png "Waveform Simulation")
 
 The red blinking circuit is enabled when reset is deasserted (rst = '0'), SW0 = '1', and both SW1 and SW2 are '0'.
 
