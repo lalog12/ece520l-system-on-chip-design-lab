@@ -68,4 +68,4 @@ The blue blinking circuit is enabled when reset is deasserted (rst = '0'), SW2 =
 # Known Issues and Limitations
 N/A
 # References
-[Zybo Z7 Reference Manual]("https://digilent.com/reference/programmable-logic/zybo-z7/reference-manual")
+[Zybo Z7 Reference Manual](https://digilent.com/reference/programmable-logic/zybo-z7/reference-manual)
