@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_rgb_led_top_behav/xsimk.exe -simmode gui -wdb tb_rgb_led_top_behav.wdb -simrunnum 0 -socket 56045
+Design successfully loaded
+Design Loading Memory Usage: 9596 KB (Peak: 9596 KB)
+Design Loading CPU Usage: 46 ms
