@@ -1,0 +1,9 @@
+19:59:02 DEBUG : Logs will be stored at 'C:/Users/eduar/Documents/GitHub/school/ece520l-system-on-chip-design-lab/lab2-axi-gpio-eg/axi_gpio_vitis/IDE.log'.
+20:00:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\eduar\Documents\GitHub\school\ece520l-system-on-chip-design-lab\lab2-axi-gpio-eg\axi_gpio_vitis\temp_xsdb_launch_script.tcl
+20:00:04 INFO  : Registering command handlers for Vitis TCF services
+20:00:04 INFO  : Platform repository initialization has completed.
+20:00:06 INFO  : XSCT server has started successfully.
+20:00:06 INFO  : Successfully done setting XSCT server connection channel  
+20:00:06 INFO  : plnx-install-location is set to ''
+20:00:06 INFO  : Successfully done setting workspace for the tool. 
+20:00:06 INFO  : Successfully done query RDI_DATADIR 
