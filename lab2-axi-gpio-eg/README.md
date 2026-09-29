@@ -6,14 +6,14 @@ Vivado’s Block Design feature was used to construct the hardware system implem
 
 The AXI interface allows the ARM processor in the PS to communicate with the AXI GPIO peripherals in the PL. In this design, the processor acts as an AXI master, while the AXI GPIO blocks act as AXI slaves. The C program running on the processor writes values to the memory-mapped data registers of the LED and RGB LED GPIO blocks. These register values cause the GPIO blocks to drive the corresponding LED signals. The processor also reads the data register of the switch GPIO block to determine the current state of the switches. Although this design reads the switches through software polling, PL peripherals can also notify the processor through interrupts when properly configured. The C programming language was used to configure the GPIO peripherals and implement the system’s control logic.
 ## Block Diagram
-![Block Diagram](/images/block_diagram.png)
+![Block Diagram](images/block_diagram.png)
 
 # Verification and Results
 ## Utilization Report
-![Alt Text](/images/utilization_report.png "Utilization Report")
+![Utilization Report](images/utilization_report.png "Utilization Report")
 
 ## Design Timing Summary
-![Alt Text](/images/design_timing_summary.png "Utilization Report")
+![Utilization Report](images/design_timing_summary.png "Utilization Report")
 
 # Known Issues and Limitations
 N/A
