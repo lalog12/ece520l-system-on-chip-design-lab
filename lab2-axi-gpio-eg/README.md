@@ -10,10 +10,10 @@ The AXI interface allows the ARM processor in the PS to communicate with the AXI
 
 # Verification and Results
 ## Utilization Report
-![Utilization Report](/images/utilization_report.png)
+![Alt Text](/images/utilization_report.png "Utilization Report")
 
 ## Design Timing Summary
-![Utilization Report](/images/design_timing_summary.png)
+![Alt Text](/images/design_timing_summary.png "Utilization Report")
 
 # Known Issues and Limitations
 N/A
