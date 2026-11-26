@@ -1,0 +1,30 @@
+16:52:11 **** Incremental Build of configuration Debug for project fifo_mult_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/fifo_mult_test.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/hw/drivers/mult_16_bit_v1_0/src -IC:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/hw/drivers/sc_fifo_axi_v1_0/src -c -fmessage-length=0 -MT"src/fifo_mult_test.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/export/fifo_mult/sw/fifo_mult/standalone_domain/bspinclude/include -MMD -MP -MF"src/fifo_mult_test.d" -MT"src/fifo_mult_test.o" -o "src/fifo_mult_test.o" "../src/fifo_mult_test.c"
+'Finished building: ../src/fifo_mult_test.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -IC:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/hw/drivers/mult_16_bit_v1_0/src -IC:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/hw/drivers/sc_fifo_axi_v1_0/src -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/export/fifo_mult/sw/fifo_mult/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: fifo_mult_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/export/fifo_mult/sw/fifo_mult/standalone_domain/bsplib/lib -o "fifo_mult_app.elf"  ./src/fifo_mult_test.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: fifo_mult_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size fifo_mult_app.elf  |tee "fifo_mult_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  23477	   1144	  22568	  47189	   b855	fifo_mult_app.elf
+'Finished building: fifo_mult_app.elf.size'
+' '
+
+16:52:13 Build Finished (took 2s.474ms)
+

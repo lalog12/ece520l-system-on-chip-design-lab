@@ -1,0 +1,14 @@
+17:21:11 **** Build of configuration Debug for project mult_app_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 56226 C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/mult_soc_eg/mult_soc_vitis/mult_plat/export/mult_plat/mult_plat.xpfm standalone_domain C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/mult_soc_eg/mult_soc_vitis/mult_app_system/Debug/system.bif
+ECHO is off.
+ECHO is off.
+sdcard_gen --xpfm C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/mult_soc_eg/mult_soc_vitis/mult_plat/export/mult_plat/mult_plat.xpfm --sys_config mult_plat --bif C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/mult_soc_eg/mult_soc_vitis/mult_app_system/Debug/system.bif --bitstream C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/mult_soc_eg/mult_soc_vitis/mult_app/_ide/bitstream/mult_bd_eg_wrapper.bit --elf C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/mult_soc_eg/mult_soc_vitis/mult_app/Debug/mult_app.elf,ps7_cortexa9_0
+ECHO is off.
+ECHO is off.
+creating BOOT.BIN using C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/mult_soc_eg/mult_soc_vitis/mult_app/_ide/bitstream/mult_bd_eg_wrapper.bit
+Running C:/Xilinx/Vitis/2023.1/bin/bootgen  -image C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/mult_soc_eg/mult_soc_vitis/mult_app_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+17:21:18 Build Finished (took 7s.229ms)
+

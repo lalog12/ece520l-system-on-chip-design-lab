@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="fifo_mult_app" location="C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app" platform="C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/export/fifo_mult/fifo_mult.xpfm" platformUID="xilinx:zybo-z7-10::0.0(custom)" systemProject="fifo_mult_app_system" sysConfig="fifo_mult" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="a317d6c1b3ddf623284a1d600541e21d">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.645401736">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.197918062" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

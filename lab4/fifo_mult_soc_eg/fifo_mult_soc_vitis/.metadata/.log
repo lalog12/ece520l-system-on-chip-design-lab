@@ -1,0 +1,458 @@
+!SESSION 2026-11-25 16:49:14.576 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file C:\Users\eduar\Documents\GitHub\school\ece520l\lab4\fifo_mult_soc_eg\fifo_mult_soc_vitis\.metadata\.bak_0.log
+Created Time: 2026-11-25 16:52:30.691
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:30.693
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/export/fifo_mult/hw/fifo_mult_bd_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, fifo_mult_bd_wrapper]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:30.695
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:30.697
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:30.697
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:30.699
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:30.699
+!MESSAGE XSCT Command: [source C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app/_ide/psinit/ps7_init.tcl], Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:30.722
+!MESSAGE XSCT command with result: [source C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:30.724
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.077
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.077
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.077
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.077
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.217
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.217
+!MESSAGE XSCT Command: [dow C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app/Debug/fifo_mult_app.elf], Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.404
+!MESSAGE XSCT command with result: [dow C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app/Debug/fifo_mult_app.elf], Result: [null, ]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.405
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.436
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.552
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.563
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.563
+!MESSAGE XSCT Command: [con], Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:52:31.597
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-0: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-11-25 16:52:31.601
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:24.926
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-1262
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:24.967
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-1262
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:25.959
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:25.974
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:25.975
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:25.991
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:25.991
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:25.991
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:25.991
+!MESSAGE XSCT Command: [version], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:25.991
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:25.991
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:25.991
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.007
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.013
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.013
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.027
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.027
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.035
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.035
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.043
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.043
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.059
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.059
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.068
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.075
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.091
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.091
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.095
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A (closed)]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:26.097
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A (closed)" && level==1}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:29.114
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A (closed)" && level==1}], Result: [null, ]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:32.119
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A (closed)" && level==1}], Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:35.155
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A (closed)" && level==1}], Result: [null, ]. Thread: Worker-3: Launching Debugger_fifo_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.631
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.635
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.635
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.642
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.642
+!MESSAGE XSCT Command: [version -server], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.642
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2023.1]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.642
+!MESSAGE XSCT Command: [version], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.642
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2023.1.0
+SW Build 0 on 2023-05-03-16:48:11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.642
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.654
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.654
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.669
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.669
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.678
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.678
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.695
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.695
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.702
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.702
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.716
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.716
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.724
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.724
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.732
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.732
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.748
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.748
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.764
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.764
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.772
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.772
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.780
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.780
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351BE7A49A" && level == 0}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.815
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351BE7A49A" && level == 0}], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.815
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.821
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.823
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.830
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.832
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.889
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:41.889
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:44.903
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:44.923
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:44.929
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351BE7A49A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:44.929
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:44.933
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:44.933
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BE7A49A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:44.971
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351BE7A49A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351BE7A49A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:44.971
+!MESSAGE XSCT Command: [fpga -file C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app/_ide/bitstream/fifo_mult_bd_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:46.178
+!MESSAGE XSCT command with result: [fpga -file C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app/_ide/bitstream/fifo_mult_bd_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:46.215
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:46.235
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:46.235
+!MESSAGE XSCT Command: [loadhw -hw C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/export/fifo_mult/hw/fifo_mult_bd_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.127
+!MESSAGE XSCT command with result: [loadhw -hw C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult/export/fifo_mult/hw/fifo_mult_bd_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, fifo_mult_bd_wrapper_0]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.127
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.127
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.127
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.138
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.138
+!MESSAGE XSCT Command: [source C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app/_ide/psinit/ps7_init.tcl], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.143
+!MESSAGE XSCT command with result: [source C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.143
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.617
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.617
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.633
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.633
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.646
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.646
+!MESSAGE XSCT Command: [dow C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app/Debug/fifo_mult_app.elf], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.798
+!MESSAGE XSCT command with result: [dow C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis/fifo_mult_app/Debug/fifo_mult_app.elf], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.798
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.817
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.893
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.902
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.902
+!MESSAGE XSCT Command: [con], Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:53:48.927
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-4: Launching Debugger_fifo_mult_app-Default
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-11-25 16:53:48.929
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:59:46.266
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-1332
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 16:59:46.280
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-1332
+!SESSION 2026-11-25 17:16:01.783 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2026-11-25 17:16:09.639
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 17:16:16.224
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 17:16:16.224
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 17:16:16.269
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 17:16:16.278
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-9
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 17:16:16.328
+!MESSAGE XSCT Command: [setws C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis], Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 17:16:16.333
+!MESSAGE XSCT command with result: [setws C:/Users/eduar/Documents/GitHub/school/ece520l/lab4/fifo_mult_soc_eg/fifo_mult_soc_vitis], Result: [null, ]. Thread: Thread-21
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 17:16:40.208
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 17:16:40.753
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 17:16:40.753
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-11-25 17:16:40.753
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, C:/Xilinx/Vitis/2023.1/data]. Thread: Worker-2: Initializing s/w repositories

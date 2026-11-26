@@ -1,0 +1,12 @@
+Time resolution is 1 ps
+Block Memory Generator module tb_sc_fifo_axi.dut.sc_fifo_axi_v1_0_S00_AXI_inst.fifo_inst.bram0.inst.\native_mem_module.blk_mem_gen_v8_4_6_inst  is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Starting packaged AXI-Lite FIFO test (WIDTH=16 DEPTH=32 LATENCY=4)
+TEST 1: reset values, parameter reporting, and read-only registers
+TEST 2: two pushes, one pop per command, sticky valid and WO reads
+TEST 3: fill to capacity, thresholds, reject overflow, preserve FIFO order
+TEST 4: repeated use across pointer wraparound
+TEST 5: software reset, restart, and AXI reset
+TEST 6: read backpressure and overlapping AXI read addresses
+PASS: AXI-Lite FIFO simulation completed (197 checked register reads).
+Review internal write/read/reset pulse widths in the waveform for the lab report.
+$finish called at time : 65120 ns : File "C:/Users/eduar/Documents/GitHub/school/ece520l-system-on-chip-design-lab/mult_soc_eg/mult_soc_eg.srcs/sim_1/new/tb_sc_fifo_axi.v" Line 540

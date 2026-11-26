@@ -1,0 +1,74 @@
+timestamp=[2026-11-24 17:10:14], mode=WORKBENCH_START, duration=0:00:09.640, duration_ms=9640, data={}
+timestamp=[2026-11-24 17:10:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.041, duration_ms=41, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-11-24 17:10:16], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.465, duration_ms=465, data={}
+timestamp=[2026-11-24 17:12:29], mode=WORKBENCH_START, duration=0:00:07.894, duration_ms=7894, data={}
+timestamp=[2026-11-24 17:12:30], mode=WORKBENCH_UI_INIT, duration=0:00:00.779, duration_ms=779, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2026-11-24 17:12:31], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.354, duration_ms=354, data={}
+timestamp=[2026-11-24 17:14:14], mode=PLATFORM_CREATION, duration=0:00:15.773, duration_ms=15773, data={platform_source=dsa, os=standalone, processor=ps7_cortexa9, platform=null}
+timestamp=[2026-11-24 17:17:53], mode=PLATFORM_GENERATION, duration=0:00:25.421, duration_ms=25421, data={name=fifo_mult}
+timestamp=[2026-11-24 17:19:34], mode=APP_CREATION, duration=0:00:06.176, duration_ms=6176, data={name=fifo_mult_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=fifo_mult, application_type=application}
+timestamp=[2026-11-24 17:52:53], mode=PLATFORM_GENERATION, duration=0:00:04.098, duration_ms=4098, data={name=fifo_mult}
+timestamp=[2026-11-24 17:52:55], mode=BUILD, duration=0:00:01.717, duration_ms=1717, data={name=fifo_mult_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 18:03:41], mode=PLATFORM_GENERATION, duration=0:00:03.239, duration_ms=3239, data={name=fifo_mult}
+timestamp=[2026-11-24 18:04:02], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=fifo_mult_app, configuration=Debug, clean_build=true}
+timestamp=[2026-11-24 18:04:03], mode=BUILD, duration=0:00:00.639, duration_ms=639, data={name=fifo_mult_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 18:06:51], mode=BUILD, duration=0:00:00.202, duration_ms=202, data={name=fifo_mult_app, configuration=Debug, clean_build=true}
+timestamp=[2026-11-24 18:06:53], mode=BUILD, duration=0:00:02.329, duration_ms=2329, data={name=fifo_mult_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 18:07:00], mode=BUILD, duration=0:00:00.392, duration_ms=392, data={name=fifo_mult_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 18:07:09], mode=BUILD, duration=0:00:08.099, duration_ms=8099, data={name=fifo_mult_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 18:31:55], mode=APP_CREATION, duration=0:00:07.257, duration_ms=7257, data={name=mult_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=fifo_mult, application_type=application}
+timestamp=[2026-11-24 18:34:53], mode=APP_CREATION, duration=0:00:07.465, duration_ms=7465, data={name=fifo_app, project_type=sdk, os=standalone, processor=cortex-a9, runtime=C/C++, platform=fifo_mult, application_type=application}
+timestamp=[2026-11-24 21:23:19], mode=BUILD, duration=0:00:01.963, duration_ms=1963, data={name=mult_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 21:25:02], mode=BUILD, duration=0:00:00.447, duration_ms=447, data={name=mult_app, configuration=Debug, clean_build=true}
+timestamp=[2026-11-24 21:25:05], mode=BUILD, duration=0:00:02.842, duration_ms=2842, data={name=mult_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 21:25:17], mode=BUILD, duration=0:00:11.438, duration_ms=11438, data={name=mult_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 21:25:24], mode=BUILD, duration=0:00:01.728, duration_ms=1728, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 21:26:09], mode=BUILD, duration=0:00:00.260, duration_ms=260, data={name=fifo_app, configuration=Debug, clean_build=true}
+timestamp=[2026-11-24 21:26:11], mode=BUILD, duration=0:00:01.902, duration_ms=1902, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 21:26:18], mode=BUILD, duration=0:00:06.744, duration_ms=6744, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 21:45:27], mode=BUILD, duration=0:00:02.227, duration_ms=2227, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 21:45:31], mode=BUILD, duration=0:00:00.384, duration_ms=384, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 21:45:39], mode=BUILD, duration=0:00:07.784, duration_ms=7784, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 21:50:12], mode=BUILD, duration=0:00:01.136, duration_ms=1136, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 22:05:59], mode=BUILD, duration=0:00:00.801, duration_ms=801, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 22:06:45], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 22:09:34], mode=BUILD, duration=0:00:01.351, duration_ms=1351, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 23:04:00], mode=BUILD, duration=0:00:01.364, duration_ms=1364, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-24 23:04:47], mode=BUILD, duration=0:00:02.144, duration_ms=2144, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 14:54:02], mode=BUILD, duration=0:00:04.177, duration_ms=4177, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 14:54:15], mode=BUILD, duration=0:00:12.298, duration_ms=12298, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 14:59:17], mode=BUILD, duration=0:00:01.228, duration_ms=1228, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 14:59:25], mode=BUILD, duration=0:00:07.318, duration_ms=7318, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:03:58], mode=BUILD, duration=0:00:00.618, duration_ms=618, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:04:05], mode=BUILD, duration=0:00:06.785, duration_ms=6785, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:04:11], mode=BUILD, duration=0:00:00.394, duration_ms=394, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:04:56], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:05:02], mode=BUILD, duration=0:00:00.454, duration_ms=454, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:05:11], mode=BUILD, duration=0:00:08.037, duration_ms=8037, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:09:58], mode=BUILD, duration=0:00:00.739, duration_ms=739, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:10:33], mode=BUILD, duration=0:00:01.270, duration_ms=1270, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:10:41], mode=BUILD, duration=0:00:07.141, duration_ms=7141, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:33:46], mode=BUILD, duration=0:00:01.578, duration_ms=1578, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:34:02], mode=BUILD, duration=0:00:01.897, duration_ms=1897, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:34:11], mode=BUILD, duration=0:00:08.458, duration_ms=8458, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:44:52], mode=BUILD, duration=0:00:00.395, duration_ms=395, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:45:00], mode=BUILD, duration=0:00:07.549, duration_ms=7549, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:47:25], mode=BUILD, duration=0:00:01.456, duration_ms=1456, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 15:47:33], mode=BUILD, duration=0:00:07.915, duration_ms=7915, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 16:15:07], mode=BUILD, duration=0:00:01.904, duration_ms=1904, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 16:15:19], mode=BUILD, duration=0:00:10.767, duration_ms=10767, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 16:19:54], mode=BUILD, duration=0:00:00.470, duration_ms=470, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 16:20:02], mode=BUILD, duration=0:00:07.645, duration_ms=7645, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 16:29:19], mode=BUILD, duration=0:00:01.844, duration_ms=1844, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 16:29:26], mode=BUILD, duration=0:00:06.873, duration_ms=6873, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 16:30:16], mode=BUILD, duration=0:00:00.403, duration_ms=403, data={name=fifo_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 16:30:23], mode=BUILD, duration=0:00:06.846, duration_ms=6846, data={name=fifo_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 16:51:14], mode=WORKBENCH_START, duration=0:01:22.013, duration_ms=82013, data={}
+timestamp=[2026-11-25 16:51:14], mode=WORKBENCH_UI_INIT, duration=0:00:00.480, duration_ms=480, data={editors_count=6, platform_editors_count=2, projects_count=8, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,fifo_app,fifo_app_system,fifo_mult,fifo_mult_app,fifo_mult_app_system,mult_app,mult_app_system}
+timestamp=[2026-11-25 16:51:16], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.740, duration_ms=740, data={}
+timestamp=[2026-11-25 16:52:08], mode=BUILD, duration=0:00:00.776, duration_ms=776, data={name=fifo_mult_app, configuration=Debug, clean_build=true}
+timestamp=[2026-11-25 16:52:13], mode=BUILD, duration=0:00:02.507, duration_ms=2507, data={name=fifo_mult_app, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 16:52:21], mode=BUILD, duration=0:00:07.487, duration_ms=7487, data={name=fifo_mult_app_system, configuration=Debug, clean_build=false}
+timestamp=[2026-11-25 17:16:39], mode=WORKBENCH_START, duration=0:00:34.161, duration_ms=34161, data={}
+timestamp=[2026-11-25 17:16:39], mode=WORKBENCH_UI_INIT, duration=0:00:00.188, duration_ms=188, data={editors_count=4, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,fifo_mult,fifo_mult_app,fifo_mult_app_system}
+timestamp=[2026-11-25 17:16:40], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.462, duration_ms=462, data={}

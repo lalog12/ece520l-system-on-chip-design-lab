@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="C:\Users\eduar\Documents\GitHub\school\ece520l-system-on-chip-design-lab\mult_soc_eg\mult_soc_vitis\mult_plat\export\mult_plat;C:\Users\eduar\Documents\GitHub\school\ece520l-system-on-chip-design-lab\mult_soc_eg\mult_soc_vitis\mult_bram\export\mult_bram;V:\mult_bd_eg_wrapper\export\mult_bd_eg_wrapper;C:\Users\eduar\Documents\GitHub\school\ece520l\lab4\mult_soc_eg\mult_soc_vitis\mult_bram\export\mult_bram;C:\Users\eduar\Documents\GitHub\school\ece520l\lab4\mult_soc_eg\mult_soc_vitis\mult_plat\export\mult_plat"/>
+	<item key="sdx.custom.platform.repository.last.directory.dialog.location" value="C:\Users\eduar\Documents\GitHub\school\ece520l\lab4\mult_soc_eg\mult_soc_vitis\mult_plat\export\mult_plat"/>
+</section>
