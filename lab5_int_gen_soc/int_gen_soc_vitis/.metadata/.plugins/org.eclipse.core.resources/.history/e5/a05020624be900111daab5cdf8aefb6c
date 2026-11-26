@@ -1,0 +1,222 @@
+#include <stdint.h>
+#include <stddef.h>
+#include "platform.h"
+#include "xparameters.h"
+#include "xparameters_ps.h"
+#include "xil_printf.h"
+#include "xil_io.h"
+#include "xscugic.h"
+#include "xil_exception.h"
+#include "xstatus.h"
+
+
+#define INTR_GEN_BASEADDR  0x43C00000U
+#define INTC_DEVICE_ID     XPAR_SCUGIC_SINGLE_DEVICE_ID
+#define INTR_GEN_INTR_ID   XPS_FPGA0_INT_ID
+
+#define FPGA_REV_REG       0x00U
+#define INT_EN_REG         0x04U
+#define INT_CLR_REG        0x08U
+#define INT_STAT_REG       0x0CU
+#define GEN_INT_REG        0x10U
+#define SW_RST_REG         0x14U
+#define BIT0_MASK          0x00000001U
+
+static XScuGic IntcInst;
+static volatile uint32_t g_interrupt_count = 0U;
+
+static inline void IntrGen_WriteReg(uint32_t offset, uint32_t value)
+{
+    Xil_Out32(INTR_GEN_BASEADDR + offset, value);
+}
+
+static inline uint32_t IntrGen_ReadReg(uint32_t offset)
+{
+    return Xil_In32(INTR_GEN_BASEADDR + offset);
+}
+
+static void IntrGen_EnableInterrupt(void)
+{
+    IntrGen_WriteReg(INT_EN_REG, BIT0_MASK);
+}
+
+static void IntrGen_DisableInterrupt(void)
+{
+    IntrGen_WriteReg(INT_EN_REG, 0U);
+}
+
+static void IntrGen_ClearInterrupt(void)
+{
+    IntrGen_WriteReg(INT_CLR_REG, BIT0_MASK);
+
+    /* Read back from the peripheral after issuing the clear write. */
+    (void)IntrGen_ReadReg(INT_STAT_REG);
+}
+
+static void IntrGen_GenerateInterrupt(void)
+{
+    IntrGen_WriteReg(GEN_INT_REG, BIT0_MASK);
+}
+
+static void PrintRegister(const char *name, uint32_t offset)
+{
+    xil_printf("[Offset: 0x%02X] %s = 0x%08X\r\n",
+               (unsigned int)offset, name,
+               (unsigned int)IntrGen_ReadReg(offset));
+}
+
+static void PrintRegisters(void)
+{
+    PrintRegister("FPGA_REV_REG", FPGA_REV_REG);
+    PrintRegister("INT_EN_REG", INT_EN_REG);
+    PrintRegister("INT_CLR_REG", INT_CLR_REG);
+    PrintRegister("INT_STAT_REG", INT_STAT_REG);
+    PrintRegister("GEN_INT_REG", GEN_INT_REG);
+    PrintRegister("SW_RST_REG", SW_RST_REG);
+}
+
+static void PrintMenu(void)
+{
+    xil_printf("\r\n========================================\r\n");
+    xil_printf("Eduardo - Interrupt Generator Menu\r\n");
+    xil_printf("========================================\r\n");
+    xil_printf("1 - Generate an interrupt\r\n");
+    xil_printf("2 - Enable interrupts\r\n");
+    xil_printf("3 - Disable interrupts\r\n");
+    xil_printf("4 - Clear the hardware interrupt\r\n");
+    xil_printf("5 - Print registers and interrupt count\r\n");
+    xil_printf("6 - Clear the software interrupt counter\r\n");
+    xil_printf("h - Display this menu\r\n");
+    xil_printf("========================================\r\n");
+}
+
+static void IntrGen_Isr(void *CallbackRef)
+{
+    (void)CallbackRef;
+
+    g_interrupt_count++;
+    IntrGen_ClearInterrupt();
+
+    /* Keep the required ISR message short; clear before printing. */
+    xil_printf("\r\nISR: Interrupt received and cleared. Count = %d\r\n",
+               (int)g_interrupt_count);
+}
+
+static int SetupInterruptSystem(XScuGic *IntcInstancePtr)
+{
+    int status;
+    XScuGic_Config *IntcConfig;
+
+    IntcConfig = XScuGic_LookupConfig(INTC_DEVICE_ID);
+    if (IntcConfig == NULL) {
+        return XST_FAILURE;
+    }
+
+    status = XScuGic_CfgInitialize(IntcInstancePtr, IntcConfig,
+                                  IntcConfig->CpuBaseAddress);
+    if (status != XST_SUCCESS) {
+        return status;
+    }
+
+    /* 0x1 = active-high level-sensitive; matches latched int_out. */
+    XScuGic_SetPriorityTriggerType(IntcInstancePtr, INTR_GEN_INTR_ID,
+                                  0xA0U, 0x1U);
+
+    status = XScuGic_Connect(IntcInstancePtr, INTR_GEN_INTR_ID,
+                            (Xil_InterruptHandler)IntrGen_Isr, NULL);
+    if (status != XST_SUCCESS) {
+        return status;
+    }
+
+    Xil_ExceptionInit();
+    Xil_ExceptionRegisterHandler(
+        XIL_EXCEPTION_ID_INT,
+        (Xil_ExceptionHandler)XScuGic_InterruptHandler,
+        IntcInstancePtr);
+
+    XScuGic_Enable(IntcInstancePtr, INTR_GEN_INTR_ID);
+    Xil_ExceptionEnable();
+
+    return XST_SUCCESS;
+}
+
+int main(void)
+{
+    int status;
+    char cmd;
+
+    init_platform();
+
+    xil_printf("\r\nInterrupt Generator Application\r\n");
+    xil_printf("Base Address: 0x%08X\r\n",
+               (unsigned int)INTR_GEN_BASEADDR);
+    xil_printf("Interrupt ID: %d\r\n", (int)INTR_GEN_INTR_ID);
+
+    /* Clear a previous pending event before enabling CPU interrupts. */
+    IntrGen_DisableInterrupt();
+    IntrGen_ClearInterrupt();
+
+    status = SetupInterruptSystem(&IntcInst);
+    if (status != XST_SUCCESS) {
+        xil_printf("ERROR: Interrupt setup failed.\r\n");
+        cleanup_platform();
+        return XST_FAILURE;
+    }
+
+    IntrGen_EnableInterrupt();
+    xil_printf("GIC setup complete. Interrupts start enabled.\r\n");
+    PrintMenu();
+
+    while (1) {
+        xil_printf("\r\nEnter command: ");
+
+        /* Ignore the Enter key's carriage-return/newline characters. */
+        do {
+            cmd = inbyte();
+        } while ((cmd == '\r') || (cmd == '\n'));
+
+        xil_printf("%c\r\n", cmd);
+
+        switch (cmd) {
+        case '1':
+            xil_printf("Generating an interrupt...\r\n");
+            IntrGen_GenerateInterrupt();
+            break;
+
+        case '2':
+            IntrGen_EnableInterrupt();
+            xil_printf("Interrupts enabled.\r\n");
+            break;
+
+        case '3':
+            IntrGen_DisableInterrupt();
+            xil_printf("Interrupts disabled.\r\n");
+            break;
+
+        case '4':
+            IntrGen_ClearInterrupt();
+            xil_printf("Hardware interrupt clear command issued.\r\n");
+            break;
+
+        case '5':
+            PrintRegisters();
+            xil_printf("Interrupt Count = %d\r\n",
+                       (int)g_interrupt_count);
+            break;
+
+        case '6':
+            g_interrupt_count = 0U;
+            xil_printf("Software interrupt counter cleared.\r\n");
+            break;
+
+        case 'h':
+        case 'H':
+            PrintMenu();
+            break;
+
+        default:
+            xil_printf("Invalid command. Press h to display the menu.\r\n");
+            break;
+        }
+    }
+}

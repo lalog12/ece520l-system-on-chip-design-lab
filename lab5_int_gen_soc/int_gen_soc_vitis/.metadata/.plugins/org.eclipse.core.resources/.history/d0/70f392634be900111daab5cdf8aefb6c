@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="int_gen_app" location="C:/Users/eduar/Documents/GitHub/school/ece520l-system-on-chip-design-lab/int_gen_soc_vitis/int_gen_app" platform="C:/Users/eduar/Documents/GitHub/school/ece520l/lab5_int_gen_soc/int_gen_soc_vitis/int_gen_plat/export/int_gen_plat/int_gen_plat.xpfm" platformUID="xilinx:zybo-z7-10::0.0(custom)" systemProject="int_gen_app_system" sysConfig="int_gen_plat" runtime="C/C++" cpu="standalone_domain" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="7fec273337cbe357de2a98c9b9a8e288">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1197181495">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.815189001" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

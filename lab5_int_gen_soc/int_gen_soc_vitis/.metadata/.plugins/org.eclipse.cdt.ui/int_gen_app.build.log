@@ -1,0 +1,30 @@
+19:06:31 **** Build of configuration Debug for project int_gen_app ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/eduar/Documents/GitHub/school/ece520l/lab5_int_gen_soc/int_gen_soc_vitis/int_gen_plat/export/int_gen_plat/sw/int_gen_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/eduar/Documents/GitHub/school/ece520l/lab5_int_gen_soc/int_gen_soc_vitis/int_gen_plat/export/int_gen_plat/sw/int_gen_plat/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: int_gen_app.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/eduar/Documents/GitHub/school/ece520l/lab5_int_gen_soc/int_gen_soc_vitis/int_gen_plat/export/int_gen_plat/sw/int_gen_plat/standalone_domain/bsplib/lib -o "int_gen_app.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: int_gen_app.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size int_gen_app.elf  |tee "int_gen_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  28375	   1920	  22616	  52911	   ceaf	int_gen_app.elf
+'Finished building: int_gen_app.elf.size'
+' '
+
+19:06:33 Build Finished (took 2s.197ms)
+
