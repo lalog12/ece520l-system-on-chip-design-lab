@@ -1,6 +1,6 @@
 # Overview
 
-This lab implements 2 custom AXI-Lite peripherals. The AXI-Lite allows a processor to control FPGA hardware through memory-mapped registers. The first IP core is a 16-bit multiplier which multiplies 2 16-bit unsigned inputs and outputs a registered 32-bit unsigned result. The second IP is a single-clock FIFO that stores up to 32 16-bit words that are stored in block RAM. The queue features read/write commands, storage count, and, reset along with full empty and threshold flags.
+This lab implements 3 custom AXI-Lite peripherals. The AXI-Lite allows a processor to control FPGA hardware through memory-mapped registers.  The first IP core is a 16-bit multiplier which multiplies 2 16-bit unsigned inputs and outputs a registered 32-bit unsigned result. The second IP is a single-clock FIFO that stores up to 32 16-bit words that are stored in block RAM. Finally, the third is a block RAM that is used to store products. The multiplier and BRAM are in the mult_soc_eg folder and the mutliplier and queue are in the fifo_mult_soc_eg folder.  The queue features read/write commands, storage count, and, reset along with full empty and threshold flags.
 
 # Design Summary
 
